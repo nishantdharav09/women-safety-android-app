@@ -8,8 +8,8 @@ Women Safety App is a simple Android application developed as a student project 
 - 📩 **SOS Messages** – Sends emergency messages to saved contacts.
 - 📍 **Location Sharing** – Includes the available current location as a Google Maps link.
 - 👥 **Emergency Contacts** – Save up to 5 emergency contact numbers.
-- 📞 **Emergency Numbers** – Provides quick access to emergency numbers.
-- 📖 **Safety Instructions** – Provides simple instructions for using the app.
+- 📞 **Emergency Numbers** – Quick access to emergency numbers.
+- 📖 **Safety Instructions** – Provides simple safety instructions.
 - 🔔 **Background Safety Service** – Keeps the safety service active while enabled.
 - 💾 **Local Storage** – Stores emergency contacts using SharedPreferences.
 
@@ -31,14 +31,21 @@ Women Safety App is a simple Android application developed as a student project 
 3. Add emergency contact numbers.
 4. Start the Safety Service.
 5. Shake the phone 3 times during an emergency.
-6. The app sends an SOS message with the available location to the saved contacts.
+6. The app sends an SOS message with the available location to saved contacts.
+
+## 📱 Download APK
+
+You can download and install the latest APK from the GitHub Release:
+
+**[⬇️ Download Women Safety App v1.0.0](../../releases/latest)**
 
 ## ⚙️ Requirements
 
 - Android Studio
 - Android device
 - Working SIM card
-- SMS and Location permissions
+- SMS permission
+- Location permission
 - Location services enabled
 
 ## ▶️ How to Run
