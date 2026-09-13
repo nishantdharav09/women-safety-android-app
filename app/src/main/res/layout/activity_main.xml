@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F7FB">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingStart="20dp"
+            android:paddingTop="20dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="24dp">
+
+            <!-- App Icon -->
+            <ImageView
+                android:id="@+id/safetyImage"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:contentDescription="Women Safety"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/ic_launcher" />
+
+            <!-- Title -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Women Safety"
+                android:textColor="#171A2B"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <!-- Subtitle -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Your safety is our priority"
+                android:textColor="#767A88"
+                android:textSize="14sp" />
+
+            <!-- SOS Instruction -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:text="Shake your phone 3 times to send an SOS"
+                android:textColor="#4F5361"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <!-- Emergency Contacts Title -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Emergency Contacts"
+                android:textColor="#171A2B"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <!-- Emergency Contacts -->
+            <TextView
+                android:id="@+id/textNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="#FFFFFF"
+                android:padding="18dp"
+                android:text="SOS Will Be Sent To:"
+                android:textColor="#666B78"
+                android:textSize="15sp" />
+
+            <!-- Start Safety Service -->
+            <Button
+                android:id="@+id/startServiceButton"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_marginTop="20dp"
+                android:onClick="startServiceV"
+                android:text="START SAFETY SERVICE"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:backgroundTint="#D62828" />
+
+            <!-- Emergency Numbers -->
+            <Button
+                android:id="@+id/emergencyButton"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginTop="14dp"
+                android:onClick="showEmergencyNumbers"
+                android:text="EMERGENCY NUMBERS"
+                android:textColor="#202337"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:backgroundTint="#FFFFFF" />
+
+            <!-- More Options -->
+            <Button
+                android:id="@+id/menuButton"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginTop="12dp"
+                android:onClick="PopupMenu"
+                android:text="MORE OPTIONS"
+                android:textColor="#202337"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:backgroundTint="#FFFFFF" />
+
+            <!-- Footer -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:text="Stay alert • Stay connected • Stay safe"
+                android:textColor="#9A9EAA"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

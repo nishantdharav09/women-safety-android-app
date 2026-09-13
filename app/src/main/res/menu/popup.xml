@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/changeNum"
+        android:title="Change Emergency Numbers" />
+
+    <item
+        android:id="@+id/instructions"
+        android:title="Safety Instructions" />
+
+</menu>
