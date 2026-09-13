@@ -60,4 +60,4 @@ You can download and install the latest APK from the GitHub Release:
 
 **Nishant Dharav**
 
-Student Android Development Project
+Student Android Development Project.
