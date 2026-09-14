@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Hardware -->
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <!-- Location -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- SMS -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <!-- Phone Call -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <!-- Vibration -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- Foreground Service -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:label="Women Safety"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <!-- Main Activity -->
+        <activity
+            android:name="com.example.wsafety.MainActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <!-- Emergency Numbers -->
+        <activity
+            android:name="com.example.wsafety.EmergencyNumbersActivity"
+            android:exported="false" />
+
+        <!-- Register Number -->
+        <activity
+            android:name="com.example.wsafety.RegisterNumberActivity"
+            android:exported="false" />
+
+        <!-- Instructions -->
+        <activity
+            android:name="com.example.wsafety.InstructionActivity"
+            android:exported="false" />
+
+        <!-- Splash Screen -->
+        <activity
+            android:name="com.example.wsafety.SplashScreen"
+            android:exported="false" />
+
+        <!-- Safety Foreground Service -->
+        <service
+            android:name="com.example.wsafety.ServiceMine"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="location" />
+
+        <!-- Volume Down Accessibility Service -->
+        <service
+            android:name="com.example.wsafety.VolumeKeyService"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/volume_key_service_config" />
+
+        </service>
+
+    </application>
+
+</manifest>

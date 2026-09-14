@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="280dp"
+    android:height="220dp"
+    android:viewportWidth="280"
+    android:viewportHeight="220">
+
+    <!-- Soft background -->
+    <path
+        android:fillColor="#F4E9FF"
+        android:pathData="M140,8
+                          C75,8 22,55 22,112
+                          C22,169 75,212 140,212
+                          C205,212 258,169 258,112
+                          C258,55 205,8 140,8 Z" />
+
+    <!-- Shield -->
+    <path
+        android:fillColor="#7B2CBF"
+        android:pathData="M140,28
+                          L211,52
+                          L203,112
+                          C198,153 174,181 140,198
+                          C106,181 82,153 77,112
+                          L69,52 Z" />
+
+    <!-- Shield center -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M140,43
+                          L193,61
+                          L187,109
+                          C183,138 166,159 140,174
+                          C114,159 97,138 93,109
+                          L87,61 Z" />
+
+    <!-- Hair -->
+    <path
+        android:fillColor="#20223A"
+        android:pathData="M101,93
+                          C95,60 114,45 140,45
+                          C166,45 185,60 179,93
+                          C169,75 158,68 140,68
+                          C122,68 111,75 101,93 Z" />
+
+    <!-- Face -->
+    <path
+        android:fillColor="#FFD6DE"
+        android:pathData="M112,86
+                          C112,70 124,60 140,60
+                          C156,60 168,70 168,86
+                          L168,101
+                          C168,119 155,131 140,131
+                          C125,131 112,119 112,101 Z" />
+
+    <!-- Hair side -->
+    <path
+        android:fillColor="#20223A"
+        android:pathData="M108,82
+                          C99,88 98,103 102,116
+                          C105,126 111,132 116,137
+                          L122,128
+                          C113,117 110,103 108,82 Z" />
+
+    <path
+        android:fillColor="#20223A"
+        android:pathData="M172,82
+                          C181,88 182,103 178,116
+                          C175,126 169,132 164,137
+                          L158,128
+                          C167,117 170,103 172,82 Z" />
+
+    <!-- Body / dress -->
+    <path
+        android:fillColor="#E83E8C"
+        android:pathData="M99,179
+                          C101,151 116,133 140,133
+                          C164,133 179,151 181,179
+                          L187,190
+                          L93,190 Z" />
+
+    <!-- Dress highlight -->
+    <path
+        android:fillColor="#FF7FB8"
+        android:pathData="M123,139
+                          C129,150 134,161 140,173
+                          C146,161 151,150 157,139
+                          C151,135 146,133 140,133
+                          C134,133 129,135 123,139 Z" />
+
+    <!-- SOS outer circle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M224,161
+                          C224,185 205,204 181,204
+                          C157,204 138,185 138,161
+                          C138,137 157,118 181,118
+                          C205,118 224,137 224,161 Z" />
+
+    <!-- SOS circle -->
+    <path
+        android:fillColor="#D62828"
+        android:pathData="M215,161
+                          C215,180 200,195 181,195
+                          C162,195 147,180 147,161
+                          C147,142 162,127 181,127
+                          C200,127 215,142 215,161 Z" />
+
+    <!-- SOS S -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M169,147
+                          C169,141 174,137 181,137
+                          C187,137 192,141 193,146
+                          L186,146
+                          C185,144 183,143 181,143
+                          C178,143 176,144 176,147
+                          C176,149 178,150 181,151
+                          C187,153 193,155 193,162
+                          C193,169 188,174 181,174
+                          C174,174 169,170 168,165
+                          L175,165
+                          C176,168 178,169 181,169
+                          C184,169 186,167 186,164
+                          C186,161 183,160 180,159
+                          C174,157 169,155 169,147 Z" />
+
+    <!-- SOS O -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M196,137
+                          C190,137 186,142 186,151
+                          C186,160 190,165 196,165
+                          C202,165 206,160 206,151
+                          C206,142 202,137 196,137 Z
+                          M196,143
+                          C198,143 200,146 200,151
+                          C200,156 198,159 196,159
+                          C194,159 192,156 192,151
+                          C192,146 194,143 196,143 Z" />
+
+</vector>
